@@ -3,34 +3,6 @@
 /* main.c -- Demo project for the PmodOLED IP                                 */
 /*                                                                            */
 /******************************************************************************/
-/* Author: Arthur Brown                                                       */
-/* Copyright 2016, Digilent Inc.                                              */
-/******************************************************************************/
-/* File Description:                                                          */
-/*                                                                            */
-/* This demo_project initializes and uses the PmodOLED to display strings     */
-/* and show different available fill patterns.                                */
-/*                                                                            */
-/* In order to properly quit the demo, a serial terminal application should   */
-/* be connected to your board over UART at the appropriate Baud rate, as      */
-/* specified below.                                                           */
-/*                                                                            */
-/******************************************************************************/
-/* Revision History:                                                          */
-/*                                                                            */
-/*    06/20/2016(ArtVVB):   Created                                           */
-/*    12/15/2016(jPeyron):  Edited for better use for OnboardOLED in, as well */
-/*                          as inverting the white and black                  */
-/*    08/25/2017(ArtVVB):   Added proper cache management functions           */
-/*    02/17/2018(atangzwj): Validated for Vivado 2017.4                       */
-/*                                                                            */
-/******************************************************************************/
-/* Baud Rates:                                                                */
-/*                                                                            */
-/*    Microblaze: 9600 or what was specified in UARTlite core                 */
-/*    Zynq: 115200                                                            */
-/*                                                                            */
-/******************************************************************************/
 
 /* ------------------------------------------------------------ */
 /*                  Include File Definitions                    */
